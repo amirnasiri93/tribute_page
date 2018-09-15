@@ -1,0 +1,54 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* -------------------- container -------------------- */
+.container {
+    margin: 20px 5px;
+    background: #D0D0D0;
+    text-align: center;
+    min-height: 300px;
+    padding: 10px;
+}
+
+/* -------------------- image_section -------------------- */
+#image_section {
+    width: 100%;
+    padding: 15px 5px;
+    background: #fff;
+}
+
+#image_section img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
+    text-justify: inter-word;
+}
+
+/* -------------------- timeline_section -------------------- */
+#timeline_section {
+    padding-top: 20px;
+}
+
+#timeline_section ul {
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+}
+
+li {
+    margin: 10px 20px;
+}
+
+/* -------------------- quote -------------------- */
+blockquote{
+    margin: 30px 10px;
+}
